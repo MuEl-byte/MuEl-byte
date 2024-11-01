@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="service.html">Service</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <p>
+        Welcome to <br /><strong>Icode Internship Program</strong> <br /><i
+          >Fill in the form to register and improve your coding skills.
+          <br />Make sure you make payment and upload your proof of payment for
+          confirmation.</i
+        >
+      </p>
+      <div class="body">
+        <div class="container">
+          <h2>Registration Form</h2>
+          <form action="">
+            <div class="form-group">
+              <label for="Fullname">Full Name</label>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter Full Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Emaill Address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="mobile">Mobile Number</label>
+              <input
+                type="text"
+                id="mobile"
+                name="mobile"
+                placeholder="Enter Mobile Number"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="birthdate">Birth Date</label>
+              <input
+                type="date"
+                id="birthdate"
+                name="birthdate"
+                placeholder="mm-day-year"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="">Gender</label>
+              <label for="" class="radio-label">
+                <input type="radio" name="gender" value="Male" required />Male
+              </label>
+              <label for="" class="radio-label">
+                <input
+                  type="radio"
+                  name="gender"
+                  value="Female"
+                  required
+                />Female
+              </label>
+              <label for="" class="radio-label">
+                <input
+                  type="radio"
+                  name="gender"
+                  value="not-say"
+                  required
+                />Prefer not to say
+              </label>
+            </div>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Enter address"
+                required
+              />
+            </div>
+            <div class="form-group form-row">
+              <input
+                type="text"
+                id="country"
+                name="country"
+                placeholder="Country"
+                required
+              />
+            </div>
+            <div class="form-group form-row">
+              <input
+                type="text"
+                id="postalcode"
+                name="postalcode"
+                placeholder="Enter Postalcode"
+                required
+              />
+            </div>
+            <div class="form-group form-row">
+              <input
+                type="file"
+                id="fileUpload"
+                name="fileUpload"
+                accept="image"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="option">Payment Options</label>
+              <select name="options" id="options">
+                <option value="pay with">Pay With...</option>
+                <option value="Pay with">
+                  USDT:BEP20 (0x87Bf3877E054e6Ac21deF934762AD5D3701fac35)<br />
+                </option>
+                <option value="Pay with">
+                  Bnb (0x87Bf3877E054e6Ac21deF934762AD5D3701fac35)
+                </option>
+                <option value="Pay with">
+                  Bank Transfer (7041367375 Lemuel Chikodili Opay)
+                </option>
+              </select>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
