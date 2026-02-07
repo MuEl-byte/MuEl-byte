@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MuEl-byte
 - 👀 I’m interested in getting a remote job 
-- 🌱 I’m currently learning JavaScript 
+- 🌱 I’m a smart contract security auditor
 - 💞️ I’m looking to collaborate on Tech companies 
 - 📫 How to reach me WhatsApp +2347041367375
 - 😄 Pronouns: Male
